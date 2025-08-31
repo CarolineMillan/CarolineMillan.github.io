@@ -1,0 +1,14 @@
+<nav>
+  <div class="nav-left">
+    <span class="site-title">Caroline Millan</span>
+  </div>
+  <div class="nav-right">
+    <ul class="nav-list">
+      {% for item in site.navbar %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+      <li><button id="mode-toggle">🌙</button></li>
+    </ul>
+    
+  </div>
+</nav>

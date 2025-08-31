@@ -1,0 +1,41 @@
+title: "Your Site Title"       # Placeholder
+email: "your.email@example.com" # Placeholder
+baseurl: ""  # leave blank for root
+url: "https://your-username.github.io"  # Change to your URL
+
+description: >
+  A short tagline or description.
+
+theme: minima  # you can change later
+
+default_lang: en
+
+# Collections & defaults
+
+# Data file for projects
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-feed  # optional
+
+# Navigation pages order
+navbar:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Projects
+    url: /projects
+  - title: Posts
+    url: /posts
+  - title: Contact
+    url: /contact
+
+# Custom vars
+colors:
+  primary: "#008080"    # teal
+  accent: "#FFD700"     # gold
+  background: "#FAF5E4" # ivory
+  text: "#333333"       # dark gray

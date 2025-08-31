@@ -1,0 +1,14 @@
+- title: "Path Tracer"
+  description: "Placeholder description for Path Tracer"
+  url: "https://github.com/your-username/path-tracer"
+  image: ""  # optional path to thumbnail
+
+- title: "Ray Tracer"
+  description: "Placeholder description for Ray Tracer"
+  url: "https://github.com/your-username/ray-tracer"
+  image: ""
+
+- title: "CHIP‑8 Emulator"
+  description: "Placeholder for CHIP‑8 emulator project"
+  url: "https://github.com/your-username/CHIP8_emulator"
+  image: ""
