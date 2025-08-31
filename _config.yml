@@ -1,7 +1,7 @@
-title: "Your Site Title"       # Placeholder
-email: "your.email@example.com" # Placeholder
+title: "Caroline Millan"       # Placeholder
+email: "carolinemillan5678@gmail.com" # Placeholder
 baseurl: ""  # leave blank for root
-url: "https://your-username.github.io"  # Change to your URL
+url: "https://carolinemillan.github.io"  # Change to your URL
 
 description: >
   A short tagline or description.
@@ -31,7 +31,7 @@ navbar:
 
 # Custom vars
 colors:
-  primary: "#158C86i";    # teal
-  accent: "#B58900i";     # gold
-  background: "#F2EEDEi"; # ivory
-  text: "#555i";       # dark gray
+  primary: "#158C86"    # teal
+  accent: "#B58900"     # gold
+  background: "#F2EEDE" # ivory
+  text: "#555"       # dark gray

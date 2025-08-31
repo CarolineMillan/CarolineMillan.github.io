@@ -12,10 +12,10 @@ This aims to be a list of all the projects I've ever done. For my own reference 
 - Made a [CHIP-8 Emulator](https://github.com/CarolineMillan/CHIP8_emulator) in Rust
 - Made a [Path Tracer](https://github.com/CarolineMillan/pathtracer_rs_bk2) in Rust following the tutorial [Ray Tracing in One Weekend](https://raytracing.github.io/) (books 1 and 2 so far)
 - Made a [POSIX compliant shell](https://github.com/CarolineMillan/codecrafters-shell-rust) with the codecrafters [shell tutorial](https://app.codecrafters.io/courses/shell/overview) in Rust
-- revisited Graphics coursework in C++
-- revisted functional programming coursework in Haskell (5/6 work, but need to rewrite last q with a closure to get it to work)
-- created this site using GitHub Pages and Jekyll (used AI to get it setup, I'm not interested in front-end web dev at the moment)
-- started using GitHub
+- Revisited Graphics coursework in C++
+- Revisted functional programming coursework in Haskell (5/6 work, but need to rewrite last q with a closure to get it to work)
+- Created this site using GitHub Pages and Jekyll (used AI to get it setup, I'm not interested in front-end web dev at the moment)
+- Started using GitHub
 - [From NAND to Tetris](https://www.nand2tetris.org/)
 - boot.dev courses ([my account](https://www.boot.dev/u/elementaryread27))
   - Introduction to Python

@@ -1,5 +1,5 @@
 - title: "CHIP‑8 Emulator"
-  description: "Placeholder for CHIP‑8 emulator project"
+  description: "Built a CHIP‑8 emulator in Rust"
   url: "https://github.com/CarolineMillan/CHIP8_emulator"
   image: ""
 
@@ -9,6 +9,6 @@
   image: ""  # optional path to thumbnail
 
 - title: "AI Agent"
-  description: "An agentic coding tool in Python using Gemini"
+  description: "An agentic coding tool using Gemini in Python"
   url: "https://github.com/CarolineMillan/my_ai_agent"
   image: ""
