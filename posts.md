@@ -4,7 +4,7 @@ title: Posts
 permalink: /posts/
 ---
 
-# Blog Posts
+# Posts
 
 <ul>
   {% for post in site.posts %}

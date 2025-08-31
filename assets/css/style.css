@@ -1,9 +1,9 @@
 /* Light mode defaults */
 :root {
-  --color-primary: #008080;    /* teal */
-  --color-accent: #FFD700;     /* gold */
-  --color-bg: #FAF5E4;         /* ivory */
-  --color-text: #333333;       /* dark gray */
+  --color-primary: #158C86;    /* teal */
+  --color-accent: #B58900;     /* gold */
+  --color-bg: #F2EEDE;         /* ivory */
+  --color-text: #555;       /* dark gray */
 }
 
 body {
@@ -23,9 +23,13 @@ nav {
   background: var(--color-primary);
   height: 4rem;
   box-sizing: border-box;
-  .site-title {
-    color: #FAF5E4;
-    }
+
+}
+
+.site-title {
+  color: var(--color-bg);
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .nav-list {
@@ -33,11 +37,21 @@ nav {
   display: flex;
   gap: 1rem;
   margin: 0;
+  padding: 0;
 }
 
 .nav-list a {
-  color: #FAF5E4;
+  color: var(--color-bg);
   text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  background: var(--color-accent);
+  color: var(--color-bg);
 }
 
 #mode-toggle {
@@ -45,7 +59,7 @@ nav {
   border: none;
   font-size: 1.2rem;
   cursor: pointer;
-  color: white;
+  color: var(--color-bg);
   margin-left: 1rem;
 }
 
@@ -65,12 +79,17 @@ main {
   padding: 1rem;
   border-radius: 8px;
   background: var(--color-bg);
+  transition: box-shadow 0.2s;
+}
+
+.project-card:hover {
+  box-shadow: 0 2px 8px rgba(34, 34, 34, 0.08);
 }
 
 /* Dark mode overrides */
 body.dark {
-  --color-bg: #222222;
-  --color-text: #FAF5E4;
-  --color-primary: #004C4C;
-  --color-accent: #B8860B;
+  --color-primary: #158C86;    /* teal */
+  --color-accent: #B58900;     /* gold */
+  --color-text: #F2EEDE;         /* ivory */
+  --color-bg: #555;       /* dark gray */
 }

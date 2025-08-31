@@ -24,18 +24,14 @@ plugins:
 navbar:
   - title: Home
     url: /
-  - title: About
-    url: /about
   - title: Projects
     url: /projects
   - title: Posts
     url: /posts
-  - title: Contact
-    url: /contact
 
 # Custom vars
 colors:
-  primary: "#008080"    # teal
-  accent: "#FFD700"     # gold
-  background: "#FAF5E4" # ivory
-  text: "#333333"       # dark gray
+  primary: "#158C86i";    # teal
+  accent: "#B58900i";     # gold
+  background: "#F2EEDEi"; # ivory
+  text: "#555i";       # dark gray

@@ -1,14 +1,14 @@
-- title: "Path Tracer"
-  description: "Placeholder description for Path Tracer"
-  url: "https://github.com/your-username/path-tracer"
-  image: ""  # optional path to thumbnail
-
-- title: "Ray Tracer"
-  description: "Placeholder description for Ray Tracer"
-  url: "https://github.com/your-username/ray-tracer"
-  image: ""
-
 - title: "CHIP‑8 Emulator"
   description: "Placeholder for CHIP‑8 emulator project"
-  url: "https://github.com/your-username/CHIP8_emulator"
+  url: "https://github.com/CarolineMillan/CHIP8_emulator"
+  image: ""
+
+- title: "Path Tracer"
+  description: "Path Tracer from Ray Tracing in One Weekend book 2 in Rust"
+  url: "https://github.com/CarolineMillan/pathtracer_rs_bk2"
+  image: ""  # optional path to thumbnail
+
+- title: "AI Agent"
+  description: "An agentic coding tool in Python using Gemini"
+  url: "https://github.com/CarolineMillan/my_ai_agent"
   image: ""
