@@ -18,15 +18,8 @@ This aims to be a list of all the projects I've ever done.
 - Started using GitHub
 - [From NAND to Tetris](https://www.nand2tetris.org/)
 - boot.dev courses ([my account](https://www.boot.dev/u/elementaryread27))
-  - Introduction to Python
-  - OOP in Python
-  - Functional Programming in Python
-  - DSA in Python
-  - Linux (I think this one was misnamed, it was about using the shell)
-  - Git
-  - Made an [AI Agent](https://github.com/CarolineMillan/my_ai_agent) using Gemini in Python
-  - Made the game ['Asteroids'](https://github.com/CarolineMillan/asteroids) in Python
-  - Made a ['bookbot'](https://github.com/CarolineMillan/bookbot) in Python
+  - Courses: Introduction to Python, OOP in Python, Functional Programming in Python, DSA in Python, Linux (I think this one was misnamed, it was about using the shell), Git
+  - Projects: [AI Agent](https://github.com/CarolineMillan/my_ai_agent) using the Gemini API, the game ['Asteroids'](https://github.com/CarolineMillan/asteroids), a ['bookbot'](https://github.com/CarolineMillan/bookbot) all in Python
 - Installed Arch Linux on my old laptop
 
 ### 2023
