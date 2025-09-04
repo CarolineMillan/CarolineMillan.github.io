@@ -31,7 +31,7 @@ This aims to be a list of all the projects I've ever done.
 
 ### 2023
 
-- freecodecamp.org's Legacy Javascript DSA course which included the following projects:
+- freecodecamp.org's [Javascript DSA](https://www.freecodecamp.org/certification/carolinemillan/javascript-algorithms-and-data-structures) course which included the following projects:
   - Palindrome Checker
   - Roman Numeral Converter
   - Caesars Cipher
@@ -45,7 +45,7 @@ This aims to be a list of all the projects I've ever done.
 
 ### 2021
 
-- freecodecamp.org's Responsive Web Design course which included the following projects: 
+- freecodecamp.org's [Responsive Web Design](https://www.freecodecamp.org/certification/carolinemillan/responsive-web-design) course which included the following projects:
   - Build a Survey Form
   - Build a Tribute Page
   - Build a Technical Documentation Page
@@ -54,8 +54,8 @@ This aims to be a list of all the projects I've ever done.
 
 ### 2020
 
-- think I did some linkedin learning courses around this time
-- kaggle.com's courses: Python, Intro to Machine Learning and Pandas.
+- LinkedIn Learning courses: [Become a web developer learning path](https://www.linkedin.com/learning/certificates/f2e5be738634417e876ab8134668cd9fcb137b4d02ca29f31ed6cf869be07322?trk=backfilled_certificate)
+- kaggle.com's courses: [Python](https://www.kaggle.com/learn/certification/caromillan/python) and [Intro to Machine Learning](https://www.kaggle.com/learn/certification/caromillan/intro-to-machine-learning)
 
 ### 2019
 
