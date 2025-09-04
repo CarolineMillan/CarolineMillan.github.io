@@ -24,12 +24,8 @@ This aims to be a list of all the projects I've ever done.
 
 ### 2023
 
-- freecodecamp.org's [Javascript DSA](https://www.freecodecamp.org/certification/carolinemillan/javascript-algorithms-and-data-structures) course which included the following projects:
-  - Palindrome Checker
-  - Roman Numeral Converter
-  - Caesars Cipher
-  - Telephone Number Validator
-  - Cash Register
+- freecodecamp.org's [Javascript DSA](https://www.freecodecamp.org/certification/carolinemillan/javascript-algorithms-and-data-structures) course
+  - Projects: Palindrome Checker, Roman Numeral Converter, Caesars Cipher, Telephone Number Validator, Cash Register
 
 ### 2022
 
@@ -38,12 +34,8 @@ This aims to be a list of all the projects I've ever done.
 
 ### 2021
 
-- freecodecamp.org's [Responsive Web Design](https://www.freecodecamp.org/certification/carolinemillan/responsive-web-design) course which included the following projects:
-  - Build a Survey Form
-  - Build a Tribute Page
-  - Build a Technical Documentation Page
-  - Build a Product Landing Page
-  - Build a Personal Portfolio Webpage
+- freecodecamp.org's [Responsive Web Design](https://www.freecodecamp.org/certification/carolinemillan/responsive-web-design) course
+  - Projects: Build a Survey Form, Build a Tribute Page, Build a Technical Documentation Page, Build a Product Landing Page, Build a Personal Portfolio Webpage
 
 ### 2020
 
