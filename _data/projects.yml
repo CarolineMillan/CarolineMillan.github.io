@@ -4,11 +4,11 @@
   image: ""
 
 - title: "Path Tracer"
-  description: "Path Tracer from Ray Tracing in One Weekend book 2 in Rust"
+  description: "Built a Path Tracer in Rust"
   url: "https://github.com/CarolineMillan/pathtracer_rs_bk2"
   image: ""  # optional path to thumbnail
 
 - title: "AI Agent"
-  description: "An agentic coding tool using Gemini in Python"
+  description: "Built an agentic coding tool using Gemini in Python"
   url: "https://github.com/CarolineMillan/my_ai_agent"
   image: ""

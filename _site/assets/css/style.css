@@ -4,7 +4,22 @@
   --color-accent: #B58900;     /* gold */
   --color-bg: #F2EEDE;         /* ivory */
   --color-text: #555;       /* dark gray */
+  --color-link: #1E6FCC;
+  --color-link-clicking: #CC3E28;
+  --color-link-visited: #5C21A5;
 }
+/*
+# Normal colors
+[colors.normal]
+black   = '#000000'
+red     = '#CC3E28'
+green   = '#216609'
+yellow  = '#B58900'
+blue    = '#1E6FCC'
+magenta = '#5C21A5'
+cyan    = '#158C86'
+white   = '#AAAAAA'
+*/
 
 body {
   margin: 0;
@@ -24,6 +39,18 @@ nav {
   height: 4rem;
   box-sizing: border-box;
 
+}
+
+a {
+  color: var(--color-link);
+}
+
+a:active {
+  color: var(--color-link-clicking);
+}
+
+a:visited {
+  color: var(--color-link-visited);
 }
 
 .site-title {
