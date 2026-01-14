@@ -5,8 +5,6 @@ from textnode import TextNode, TextType
 from utils import markdown_to_html_node
 
 def main():
-    my_node = TextNode("this is some text", TextType.ITALIC, "https://www.example_url.com")
-    print(my_node)
     if len(sys.argv) > 0:
         basepath = sys.argv[0]
     else:
