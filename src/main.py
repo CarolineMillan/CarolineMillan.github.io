@@ -5,8 +5,9 @@ from textnode import TextNode, TextType
 from utils import markdown_to_html_node
 
 def main():
-    if len(sys.argv) > 0:
-        basepath = sys.argv[0]
+    if len(sys.argv) > 1:
+        print(sys.argv)
+        basepath = sys.argv[1]
     else:
         basepath = '/'
     copy_contents()
@@ -76,6 +77,7 @@ def generate_page(from_path, template_path, dest_path, basepath):
     # replace title and content in the template
     t1 = template.replace("{{ Title }}", title)
     t_content = t1.replace("{{ Content }}", html_string)
+    # FIXME you've messed up this replace bit here
     t_href = t_content.replace("href=\"/", f"href=\"{basepath}")
     t2 = t_href.replace("src=\"/", f"src=\"{basepath}")
     
