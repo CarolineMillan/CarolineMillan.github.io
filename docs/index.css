@@ -1,13 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* Light mode defaults */
+:root {
+  --color-primary: #158C86;    /* teal */
+  --color-accent: #B58900;     /* gold */
+  --color-bg: #F2EEDE;         /* ivory */
+  --color-text: #555;       /* dark gray */
+  --color-link: #1E6FCC;
+  --color-link-clicking: #CC3E28;
+  --color-link-visited: #5C21A5;
+}
+/*
+# Normal colors
+[colors.normal]
+black   = '#000000'
+red     = '#CC3E28'
+green   = '#216609'
+yellow  = '#B58900'
+blue    = '#1E6FCC'
+magenta = '#5C21A5'
+cyan    = '#158C86'
+white   = '#AAAAAA'
+*/
+
+hr {
+  color: var(--color-accent);
+  width: 95%;
+}
+
 body {
-  background-color: #1f1c25;
-  color: #f0e6d1;
-  font-family: "Luminari", "Georgia", serif;
+  margin: 0;
+  padding: 1rem;
+  font-family: "Libre Baskerville";/*'Georgia', serif; /*'EB Garamond', serif;*/
+  background: var(--color-bg);
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 1rem 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  background: var(--color-bg);
+  height: 4rem;
+  box-sizing: border-box;
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-link);
+}
+
+a:active {
+  color: var(--color-link-clicking);
+}
+
+a:visited {
+  color: var(--color-link-visited);
+}
+
+.site-title {
+  color: var(--color-accent);
+  padding-left: 1rem;
+}
+
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.nav-list a {
+  color: var(--color-accent);
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  background: var(--color-accent);
+  color: var(--color-bg);
+}
+/*
+#mode-toggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--color-bg);
+  margin-left: 1rem;
+}
+*/
+main {
+  flex: 1;
+  padding: 2rem;
+  padding-top: 0rem;
+
+}
+
+.projects-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.project-card {
+  border: 1px solid var(--color-accent);
+  padding: 1rem;
+  border-radius: 8px;
+  background: var(--color-bg);
+  transition: box-shadow 0.2s;
+  display: block;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.project-card:visited {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.project-card:hover {
+  box-shadow: 0 2px 8px rgba(34, 34, 34, 0.08);
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: "Libre Baskerville", "Luminari", "Georgia", serif;
   line-height: 1.7;
   margin: 0;
-  padding: 20px;
-  max-width: 800px;
+  padding: 1rem;
+  /*max-width: 800px;*/
   margin-left: auto;
   margin-right: auto;
+}
+
+article {
+  /*padding-left: 2rem;
+  padding-right: 2rem;*/
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
 }
 
 b {
@@ -20,12 +163,12 @@ h3,
 h4,
 h5,
 h6 {
-  color: #dda15e;
+  color: var(--color-text);
   margin-top: 24px;
   margin-bottom: 16px;
-  text-shadow: 2px 2px 4px #000;
 }
 
+.site-title,
 h1 {
   font-size: 2.5em;
 }
@@ -45,14 +188,13 @@ h6 {
 }
 
 a {
-  color: #e0a96d;
+  color: var(--color-link);
   text-decoration: none;
-  border-bottom: 2px solid #e0a96d;
 }
 
 a:hover {
-  color: #f4a261;
-  border-color: #f4a261;
+  color: var(--color-link-clicking);
+  border-color: var(--color-link-clicking);
 }
 
 ul,
@@ -61,9 +203,9 @@ ol {
 }
 
 code {
-  background-color: #3c3c42;
+  background-color: var(--color-bg);
   border-radius: 6px;
-  color: #e9c46a;
+  color: var(--color-text);
   padding: 0.4em 0.6em;
   font-family: "Courier New", monospace;
 }
@@ -73,7 +215,7 @@ pre code {
 }
 
 pre {
-  background-color: #3c3c42;
+  background-color: var(--color-bg);
   border-radius: 6px;
   padding: 1em;
   overflow: auto;
@@ -81,14 +223,14 @@ pre {
 }
 
 blockquote {
-  background-color: #2e2c35;
-  border-left: 4px solid #8d99ae;
+  background-color: var(--color-bg);
+  border-left: 4px solid var(--color-text);
   padding-left: 2em;
   margin-left: 0;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   padding-right: 0.5em;
-  color: #ddd;
+  color: var(--color-text);
   font-style: italic;
 }
 
