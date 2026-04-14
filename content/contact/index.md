@@ -1,5 +1,5 @@
-# Contact the Author
+# Contact me
 
 [< Back Home](/)
 
-Lorem ipsum etc.
+carolinemillan5678 [at] gmail [dot] com

@@ -1,3 +1,0 @@
-# Resources
-
-lorem ipsum etcetera
