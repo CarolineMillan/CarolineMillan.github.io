@@ -10,7 +10,7 @@ I wrote about my goals for 2025 [here](../posts/2025goals.html)
 - Made a [Path Tracer](https://github.com/CarolineMillan/pathtracer_rs_bk2) in Rust
 - Made a [regex matcher](https://github.com/CarolineMillan/grape) in C++, using [Thompson's algorithm](https://en.wikipedia.org/wiki/Thompson%27s_construction)
 - Made a [POSIX compliant shell](https://github.com/CarolineMillan/codecrafters-shell-rust) in Rust
-- [From NAND to Tetris](https://www.nand2tetris.org)
+- [From NAND to Tetris](https://www.nand2tetris.org) (Part 1)
 - boot.dev courses ([my account](https://www.boot.dev/u/elementaryread27))
 - Courses: Introduction to Python, OOP in Python, Functional Programming in Python, DSA in Python (1 & 2), Linux (I think this one was misnamed, it was about using the shell), Git, Memory Management in C
 - Projects: [AI Agent](https://github.com/CarolineMillan/my_ai_agent) using the Google Gemini web API, the game [‘Asteroids’](https://github.com/CarolineMillan/asteroids), a [‘bookbot’](https://github.com/CarolineMillan/bookbot) all in Python
@@ -42,7 +42,7 @@ I wrote about my goals for 2025 [here](../posts/2025goals.html)
 
 ## 2019
 
-- Advanced Computer Graphics coursework: built a ray tracer with photon mapping in C++ (used a udemy course to learn cpp basics)
+- Advanced Computer Graphics coursework: built a ray tracer with photon mapping in C++ (used a udemy course to learn C++ basics)
 - Functional Programming coursework: built a Lambda Calculus interpreter using a Krivine Abstract Machine in Haskell (used [learnyouahaskell.com](https://learnyouahaskell.com/) for Haskell basics)
 - University of Bath: Mathematics BSc Year 2 Semester 2 (Algebra 2B, Analysis 2B, Vector Calculus and PDEs, Mathematical Modelling, Functional Programming)
 - University of Bath: Mathematics BSc Year 3 Semester 1 (Advanced Computer Graphics, Group Theory, Algebraic Curves, Continuum Mechanics, Mathematical Methods 1)

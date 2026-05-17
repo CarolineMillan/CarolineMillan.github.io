@@ -108,17 +108,17 @@ def text_to_textnodes(text):
     # use all the split functions one after the other
     # we start with PLAIN
     plain = [TextNode(text=text, text_type=TextType.PLAIN)]
+    # LINK
+    link = split_nodes_link(plain)
+    # IMAGE
+    image = split_nodes_image(link)
     # get BOLD
-    bold = split_nodes_delimiter(plain, "**", TextType.BOLD)
+    bold = split_nodes_delimiter(image, "**", TextType.BOLD)
     # ITALIC
     italic = split_nodes_delimiter(bold, "_", TextType.ITALIC)
     # CODE
     code = split_nodes_delimiter(italic, "`", TextType.CODE)
-    # LINK
-    link = split_nodes_link(code)
-    # IMAGE
-    image = split_nodes_image(link)
-    return image
+    return code
 
 def markdown_to_blocks(markdown):
     split = markdown.split("\n\n")
