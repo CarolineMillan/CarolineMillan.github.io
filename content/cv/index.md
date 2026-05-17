@@ -99,7 +99,7 @@ _Gower College Swansea | 2017 | Swansea, UK_
 A Levels: Mathematics (A*), Further Mathematics (A*), Chemistry (A).
 UKMT Gold award, and represented Gower College in the team challenge.
 
-### Technical Skills
+## Technical Skills
 
 **Languages:** C++, Rust, Python, Haskell, Magik
 

@@ -150,8 +150,8 @@ article {
   padding-right: 2rem;*/
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
-  /*max-width: 800px;*/
+  width: 100%;
+  max-width: 800px;
 }
 
 b {
