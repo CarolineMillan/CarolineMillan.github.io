@@ -20,7 +20,7 @@ Below is essentially a stock take of every course and project that I've done. Fo
 - Boot.dev Courses: Introduction to Python, OOP in Python, Functional Programming in Python, DSA in Python (1 & 2), Linux (I think this one was misnamed, it was about using the shell), Git, and Memory Management in C
 - Boot.dev Projects: [AI Agent](https://github.com/CarolineMillan/my_ai_agent) using the Google Gemini web API, the game [‘Asteroids’](https://github.com/CarolineMillan/asteroids), and a [‘bookbot’](https://github.com/CarolineMillan/bookbot) all in Python
 - Started using GitHub
-- Installed Arch Linux on my old laptop
+- Installed Linux on an old laptop
 
 ### 2023
 
