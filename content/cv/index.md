@@ -6,8 +6,9 @@
 
 _May 2023 – present | Neath, UK_
 
-• Health-related career break due to illness, with personal projects and courses available on GitHub. Now seeking to
-return to full-time software development.
+• Career break for health reasons; now recovered and returning to full-time work.
+• The projects below were built during this period through sustained self-directed study (and are available on
+GitHub), alongside courses in computer architecture, memory management and others.
 
 ### Junior Software Consultant
 
@@ -58,17 +59,32 @@ Phong normal interpolation for smooth mesh shading, gamma correction, and antial
 • Photon mapping simulates indirect lighting effects — caustics through glass, colour bleeding between surfaces —
 that direct illumination alone cannot produce
 
-### Others 
+### Lambda Calculus Interpreter with Krivine Abstract Machine
 
-_Haskell, Rust | 2025-2026_
+_Haskell | 2026_
 
-• Lambda Calculus with Krivine Abstract Machine (Haskell): Undergraduate project (80%) revisited in 2026. Rewrote the Krivine Abstract Machine from scratch using closures for a correct implementation.
+• Undergraduate project (80%) revisited in 2026. Evaluates lambda calculus expressions (a minimal model of
+computation) using the Krivine Abstract Machine, a call-by-name evaluator. Rewrote the Krivine Abstract
+Machine from scratch using closures for a correct implementation.
 
-• Hack Assembler (Haskell): A two-pass assembler for the Hack instruction set, from the course ’From NAND to Tetris’.
+### Hack Assembler
 
-• CHIP-8 Emulator (Rust): Implements all 35 original opcodes, so it runs all classic CHIP-8 programs and passes Timendus’ test suite
+_Haskell | 2026_
 
-• Path Tracer (Rust): Path tracer following Peter Shirley’s Ray Tracing in One Weekend series, translating it from C++ to Rust. Features include: positionable camera, BVH, volumes, emissive surfaces, materials (lambertian, dielectric, metal), Perlin noise, spheres and quadrilaterals.
+• A two-pass assembler for the Hack instruction set, from the course ’From NAND to Tetris’.
+
+### Chip-8 Emulator
+
+_Rust | 2025_
+
+• An 8-bit CPU simulator capable of running any standard CHIP-8 program. Passes Timendus’ test suite and runs
+the games in John Earnest’s CHIP-8 Archive.
+
+### Path Tracer
+
+_Rust | 2025_
+
+• Path tracer following Peter Shirley’s Ray Tracing in One Weekend series, translating it from C++ to Rust. Features include: positionable camera, BVH, volumes, emissive surfaces, materials (lambertian, dielectric, metal), Perlin noise, spheres and quadrilaterals.
 
 ## Education
 
@@ -98,6 +114,25 @@ _Gower College Swansea | 2017 | Swansea, UK_
 
 A Levels: Mathematics (A*), Further Mathematics (A*), Chemistry (A).
 UKMT Gold award, and represented Gower College in the team challenge.
+
+## Courses
+
+### From NAND to Tetris Pt 1
+
+_2025-2026 | Hebrew University of Jerusalem | Online_
+
+Built a general-purpose computer from first principles in a hardware description language (HDL), from
+elementary NAND-based logic gates through an ALU, RAM, and a working CPU. Wrote two programs in
+Hack assembly and a Hack-to-binary assembler.
+
+### Boot.dev
+
+_2025 - 2026 | Online_
+
+_Courses_: Memory Management in C, Data Structures & Algorithms, Object-Oriented Programming,
+Functional Programming, HTTP Clients, Go, SQL, and Python.
+_Projects_: an RSS feed aggregator and a Pokedex CLI (PokeAPI) in Go; and a Static Site Generator, Maze
+Solver, and an AI Agent (Google Gemini API) in Python.
 
 ## Technical Skills
 
