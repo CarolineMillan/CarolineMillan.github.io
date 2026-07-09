@@ -136,6 +136,5 @@ Solver, and an AI Agent (Google Gemini API) in Python.
 
 ## Technical Skills
 
-**Languages:** C++, Rust, Python, Haskell, Magik
+**Languages & Tools:** C++, Rust, Python, Go, Haskell, Magik, Git
 
-**Developer Tools:** Git, Cargo, VS Code, Neovim
