@@ -8,6 +8,7 @@ _May 2023 – present_
 
 • Career break for health reasons; now recovered and returning to full-time work.
 
+
 • The projects below were built during this period through sustained self-directed study (and are available on
 GitHub), alongside courses in computer architecture, memory management and others.
 
