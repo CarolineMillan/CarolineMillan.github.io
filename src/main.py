@@ -107,7 +107,8 @@ def generate_pages_recursive(dir_path_content, template_path, dest_dir_path, bas
         # if it's a direvtory then recurse!
         
         if os.path.isfile(dir_path):
-            generate_page(dir_path, template_path, dest_path, basepath)
+            if thing.endswith(".md"):
+                generate_page(dir_path, template_path, dest_path, basepath)
         else:
             # make the directory here first
             os.mkdir(dest_path)

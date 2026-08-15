@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Setting Up RSS Feeds With Newsboat</title>
+    <link href="/index.css" rel="stylesheet" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-left">
+        <span class="site-title">Caroline Millan</span>
+      </div>
+      <div class="nav-right">
+        <ul class="nav-list">
+          
+            <li><a href="/">About</a></li>
+          
+            <li><a href="/cv">CV</a></li>
+          
+            <li><a href="/projects">Projects</a></li>
+          
+            <li><a href="/posts">Posts</a></li>
+          
+            <li><a href="/contact">Contact</a></li>
+          
+        </ul>
+        
+      </div>
+    </nav>
+    <hr>
+    <article><div><h1>Setting Up RSS Feeds With Newsboat</h1><p>I found out about RSS feeds from boot.dev; their guided project on building an RSS Feed Aggregator. I'd seen them around from the icon on lots of websites, and heard something about podcasts running on them years ago, but the project on boot.dev was the thing that made me give them a go. Hopefully I'll find it a good alternative to algorithmically controlled content. I've been reading email newsletters for a while now after deleting social media apps from my phone, and I hope this will be in a similar vein to that.</p><p>I'm trying out <a href="https://newsboat.org/">newsboat</a>, which I installed on macOS using <code></code><code>brew install newsboat</code><code></code>. Their <a href="https://newsboat.org/releases/2.43/docs/newsboat.html">docs</a> are good. It has a better UI than my guided project, and it's nice not being responsible for maintaining it.</p><h2>Setup</h2><h3>Following Feeds</h3><p>To follow feeds, you first need to create a file to store their urls at location <code></code><code>~/.newsboat/urls</code><code></code></p><p>NB: <code></code><code>urls</code><code></code> is the filename, it has no file extension</p><p>It will look something like this:</p><pre><code>www.abc.com/rss
+www.xyz.com/feed.xml
+</code></pre><p>Literally just a list of feed URLs that you want to follow. Make sure to get the RSS feed link on a blog, and not the link to the blog itself. They are different things. RSS feed links tend to end in either <code></code><code>.xml</code><code></code> or <code></code><code>.rss</code><code></code>, or they can have no extension and just be called something like <code></code><code>rss</code><code></code> or <code></code><code>feed</code><code></code>. There is often an icon in the url address bar or somewhere on the website that will take you to the right address.</p><h3>Configuration</h3><p>If you want to do any configuration then you'll need a config file at location <code></code><code>~/.newsboat/config</code><code></code></p><p>NB: <code></code><code>config</code><code></code> is the filename, it has no file extension</p><p>You will need to set a browser in the configuration if you use a browser other than lynx. <a href="https://newsboat.org/releases/2.43/docs/newsboat.html#_newsboat_configuration_commands">Here</a> are the configuration commands, and <a href="https://newsboat.org/releases/2.43/docs/newsboat.html#_using_browser">here</a> is the section in the docs on using a browser.</p><p>My configuration file just contains <code></code><code>browser "open -a Firefox %u"</code><code></code> currently.</p><h2>Usage</h2><p>Type <code></code><code>newsboat</code><code></code> into the terminal to open newsboat. Keyboard commands are at the bottom of the screen. You'll need to do <code></code><code>Shift</code><code></code> + <code></code><code>r</code><code></code> initially to load in some articles, and again whenever you'd like to refresh the list of articles. It should show you a list of the feeds you have added to your <code></code><code>urls</code><code></code> file. When you select one, it takes you to a list of articles from that feed. When you select an article it opens a preview, and you press <code></code><code>o</code><code></code> to open it in your browser. <code></code><code>q</code><code></code> to quit.</p></div></article>
+  </body>
+</html>
