@@ -1,6 +1,6 @@
 # Contact Me
 
-Email: carolinemillan5678 [at] gmail [dot] com
+[carolinemillan5678@gmail.com](mailto:carolinemillan5678@gmail.com)
 
 [GitHub](https://github.com/CarolineMillan)
 
